@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "kissclipart-interface-and-web-icon-menu-button-of-three-horizo-1021e16e632f6283.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

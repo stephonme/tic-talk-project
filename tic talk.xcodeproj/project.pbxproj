@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A127858624D0CB4300FAFFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A127858524D0CB4300FAFFAC /* AppDelegate.swift */; };
+		A127858824D0CB4300FAFFAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A127858724D0CB4300FAFFAC /* SceneDelegate.swift */; };
+		A127858A24D0CB4300FAFFAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A127858924D0CB4300FAFFAC /* HomeViewController.swift */; };
+		A127858D24D0CB4300FAFFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A127858B24D0CB4300FAFFAC /* Main.storyboard */; };
+		A127859024D0CB4300FAFFAC /* tic_talk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A127858E24D0CB4300FAFFAC /* tic_talk.xcdatamodeld */; };
+		A127859224D0CB4E00FAFFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A127859124D0CB4E00FAFFAC /* Assets.xcassets */; };
+		A127859524D0CB4E00FAFFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A127859324D0CB4E00FAFFAC /* LaunchScreen.storyboard */; };
+		A1DD1C7124D1F7DF00FC5BFA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */; };
+		A1DD1C7324D215A100FC5BFA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */; };
+		A1DD1C7524D215DF00FC5BFA /* RemindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7424D215DF00FC5BFA /* RemindViewController.swift */; };
+		A1DD1C7724D2161100FC5BFA /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A127858224D0CB4300FAFFAC /* tic talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tic talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A127858524D0CB4300FAFFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A127858724D0CB4300FAFFAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A127858924D0CB4300FAFFAC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A127858C24D0CB4300FAFFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A127858F24D0CB4300FAFFAC /* tic_talk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tic_talk.xcdatamodel; sourceTree = "<group>"; };
+		A127859124D0CB4E00FAFFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A127859424D0CB4E00FAFFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A127859624D0CB4E00FAFFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A1DD1C7424D215DF00FC5BFA /* RemindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindViewController.swift; sourceTree = "<group>"; };
+		A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A127857F24D0CB4300FAFFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A127857924D0CB4300FAFFAC = {
+			isa = PBXGroup;
+			children = (
+				A127858424D0CB4300FAFFAC /* tic talk */,
+				A127858324D0CB4300FAFFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A127858324D0CB4300FAFFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A127858224D0CB4300FAFFAC /* tic talk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A127858424D0CB4300FAFFAC /* tic talk */ = {
+			isa = PBXGroup;
+			children = (
+				A127858524D0CB4300FAFFAC /* AppDelegate.swift */,
+				A127858724D0CB4300FAFFAC /* SceneDelegate.swift */,
+				A127858924D0CB4300FAFFAC /* HomeViewController.swift */,
+				A127858B24D0CB4300FAFFAC /* Main.storyboard */,
+				A127859124D0CB4E00FAFFAC /* Assets.xcassets */,
+				A127859324D0CB4E00FAFFAC /* LaunchScreen.storyboard */,
+				A127859624D0CB4E00FAFFAC /* Info.plist */,
+				A127858E24D0CB4300FAFFAC /* tic_talk.xcdatamodeld */,
+				A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */,
+				A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */,
+				A1DD1C7424D215DF00FC5BFA /* RemindViewController.swift */,
+				A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */,
+			);
+			path = "tic talk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A127858124D0CB4300FAFFAC /* tic talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A127859924D0CB4E00FAFFAC /* Build configuration list for PBXNativeTarget "tic talk" */;
+			buildPhases = (
+				A127857E24D0CB4300FAFFAC /* Sources */,
+				A127857F24D0CB4300FAFFAC /* Frameworks */,
+				A127858024D0CB4300FAFFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tic talk";
+			productName = "tic talk";
+			productReference = A127858224D0CB4300FAFFAC /* tic talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A127857A24D0CB4300FAFFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Stephanie Jacobo";
+				TargetAttributes = {
+					A127858124D0CB4300FAFFAC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A127857D24D0CB4300FAFFAC /* Build configuration list for PBXProject "tic talk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A127857924D0CB4300FAFFAC;
+			productRefGroup = A127858324D0CB4300FAFFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A127858124D0CB4300FAFFAC /* tic talk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A127858024D0CB4300FAFFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A127859524D0CB4E00FAFFAC /* LaunchScreen.storyboard in Resources */,
+				A127859224D0CB4E00FAFFAC /* Assets.xcassets in Resources */,
+				A127858D24D0CB4300FAFFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A127857E24D0CB4300FAFFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A127859024D0CB4300FAFFAC /* tic_talk.xcdatamodeld in Sources */,
+				A1DD1C7124D1F7DF00FC5BFA /* MenuViewController.swift in Sources */,
+				A127858A24D0CB4300FAFFAC /* HomeViewController.swift in Sources */,
+				A127858624D0CB4300FAFFAC /* AppDelegate.swift in Sources */,
+				A1DD1C7724D2161100FC5BFA /* DiaryViewController.swift in Sources */,
+				A1DD1C7324D215A100FC5BFA /* InfoViewController.swift in Sources */,
+				A1DD1C7524D215DF00FC5BFA /* RemindViewController.swift in Sources */,
+				A127858824D0CB4300FAFFAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A127858B24D0CB4300FAFFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A127858C24D0CB4300FAFFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A127859324D0CB4E00FAFFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A127859424D0CB4E00FAFFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A127859724D0CB4E00FAFFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A127859824D0CB4E00FAFFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A127859A24D0CB4E00FAFFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.tic-talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A127859B24D0CB4E00FAFFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.tic-talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A127857D24D0CB4300FAFFAC /* Build configuration list for PBXProject "tic talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A127859724D0CB4E00FAFFAC /* Debug */,
+				A127859824D0CB4E00FAFFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A127859924D0CB4E00FAFFAC /* Build configuration list for PBXNativeTarget "tic talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A127859A24D0CB4E00FAFFAC /* Debug */,
+				A127859B24D0CB4E00FAFFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A127858E24D0CB4300FAFFAC /* tic_talk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A127858F24D0CB4300FAFFAC /* tic_talk.xcdatamodel */,
+			);
+			currentVersion = A127858F24D0CB4300FAFFAC /* tic_talk.xcdatamodel */;
+			path = tic_talk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A127857A24D0CB4300FAFFAC /* Project object */;
+}
