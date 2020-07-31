@@ -21,6 +21,8 @@
 		A1DD1C7124D1F7DF00FC5BFA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */; };
 		A1DD1C7324D215A100FC5BFA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */; };
 		A1DD1C7724D2161100FC5BFA /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */; };
+		A6743D9F24D48BF100476FE4 /* ticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6743D9E24D48BF100476FE4 /* ticViewController.swift */; };
+		A6743DA124D48C8200476FE4 /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6743DA024D48C8200476FE4 /* journalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		A6743D9E24D48BF100476FE4 /* ticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticViewController.swift; sourceTree = "<group>"; };
+		A6743DA024D48C8200476FE4 /* journalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				A138BCA424D34732001FAAAD /* ToDo.swift */,
 				A138BCA624D349CE001FAAAD /* AddToDoViewController.swift */,
 				A138BCA824D3519D001FAAAD /* CompleteToDoViewController.swift */,
+				A6743D9E24D48BF100476FE4 /* ticViewController.swift */,
+				A6743DA024D48C8200476FE4 /* journalViewController.swift */,
 			);
 			path = "tic talk";
 			sourceTree = "<group>";
@@ -163,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A138BCA524D34732001FAAAD /* ToDo.swift in Sources */,
+				A6743D9F24D48BF100476FE4 /* ticViewController.swift in Sources */,
 				A127859024D0CB4300FAFFAC /* tic_talk.xcdatamodeld in Sources */,
 				A138BCA724D349CE001FAAAD /* AddToDoViewController.swift in Sources */,
+				A6743DA124D48C8200476FE4 /* journalViewController.swift in Sources */,
 				A1DD1C7124D1F7DF00FC5BFA /* MenuViewController.swift in Sources */,
 				A138BCA924D3519D001FAAAD /* CompleteToDoViewController.swift in Sources */,
 				A127858A24D0CB4300FAFFAC /* HomeViewController.swift in Sources */,

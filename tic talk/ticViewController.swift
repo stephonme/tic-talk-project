@@ -1,31 +1,32 @@
 //
-//  DiaryViewController.swift
+//  ticViewController.swift
 //  tic talk
 //
-//  Created by Steph1 on 7/29/20.
+//  Created by Taylor Cho on 7/31/20.
 //  Copyright © 2020 Stephanie Jacobo. All rights reserved.
 //
 
 import UIKit
 
-class DiaryViewController: UIViewController {
+class ticViewController: UIViewController {
 
-    @IBAction func greatButton(_ sender: Any) {
-        let alertController = UIAlertController(title: "mood log", message: "that's awesome!", preferredStyle: .alert)
+    
+    @IBAction func noneButton(_ sender: Any) {
+        let alertController = UIAlertController(title: "tic frequency", message: "good to hear!", preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "close", style: .default))
         self.present(alertController, animated: true, completion: nil)
     }
     
-    @IBAction func okayButton(_ sender: Any) {
-        let alertController = UIAlertController(title: "mood log", message: "i hope it gets better <3", preferredStyle: .alert)
+    @IBAction func sometimesButton(_ sender: Any) {
+        let alertController = UIAlertController(title: "tic frequency", message: "i hope it was okay", preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "close", style: .default))
         self.present(alertController, animated: true, completion: nil)
     }
     
-    @IBAction func sadButton(_ sender: Any) {
-        let alertController = UIAlertController(title: "mood log", message: "let's take some time to reflect", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "close", style: .default))
-        self.present(alertController, animated: true, completion: nil)
+    @IBAction func oftenButton(_ sender: Any) {
+        let alertController = UIAlertController(title: "tic frequency", message: "let's talk about it and hope tomorrow is better", preferredStyle: .alert)
+               alertController.addAction(UIAlertAction(title: "close", style: .default))
+               self.present(alertController, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
