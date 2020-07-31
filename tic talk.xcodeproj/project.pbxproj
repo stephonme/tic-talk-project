@@ -14,9 +14,12 @@
 		A127859024D0CB4300FAFFAC /* tic_talk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A127858E24D0CB4300FAFFAC /* tic_talk.xcdatamodeld */; };
 		A127859224D0CB4E00FAFFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A127859124D0CB4E00FAFFAC /* Assets.xcassets */; };
 		A127859524D0CB4E00FAFFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A127859324D0CB4E00FAFFAC /* LaunchScreen.storyboard */; };
+		A138BCA324D344A0001FAAAD /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138BCA224D344A0001FAAAD /* ToDoTableViewController.swift */; };
+		A138BCA524D34732001FAAAD /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138BCA424D34732001FAAAD /* ToDo.swift */; };
+		A138BCA724D349CE001FAAAD /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138BCA624D349CE001FAAAD /* AddToDoViewController.swift */; };
+		A138BCA924D3519D001FAAAD /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138BCA824D3519D001FAAAD /* CompleteToDoViewController.swift */; };
 		A1DD1C7124D1F7DF00FC5BFA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */; };
 		A1DD1C7324D215A100FC5BFA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */; };
-		A1DD1C7524D215DF00FC5BFA /* RemindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7424D215DF00FC5BFA /* RemindViewController.swift */; };
 		A1DD1C7724D2161100FC5BFA /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +33,12 @@
 		A127859124D0CB4E00FAFFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A127859424D0CB4E00FAFFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A127859624D0CB4E00FAFFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A138BCA224D344A0001FAAAD /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		A138BCA424D34732001FAAAD /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		A138BCA624D349CE001FAAAD /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		A138BCA824D3519D001FAAAD /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		A1DD1C7424D215DF00FC5BFA /* RemindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindViewController.swift; sourceTree = "<group>"; };
 		A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,8 +82,11 @@
 				A127858E24D0CB4300FAFFAC /* tic_talk.xcdatamodeld */,
 				A1DD1C7024D1F7DF00FC5BFA /* MenuViewController.swift */,
 				A1DD1C7224D215A100FC5BFA /* InfoViewController.swift */,
-				A1DD1C7424D215DF00FC5BFA /* RemindViewController.swift */,
 				A1DD1C7624D2161100FC5BFA /* DiaryViewController.swift */,
+				A138BCA224D344A0001FAAAD /* ToDoTableViewController.swift */,
+				A138BCA424D34732001FAAAD /* ToDo.swift */,
+				A138BCA624D349CE001FAAAD /* AddToDoViewController.swift */,
+				A138BCA824D3519D001FAAAD /* CompleteToDoViewController.swift */,
 			);
 			path = "tic talk";
 			sourceTree = "<group>";
@@ -153,13 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A138BCA524D34732001FAAAD /* ToDo.swift in Sources */,
 				A127859024D0CB4300FAFFAC /* tic_talk.xcdatamodeld in Sources */,
+				A138BCA724D349CE001FAAAD /* AddToDoViewController.swift in Sources */,
 				A1DD1C7124D1F7DF00FC5BFA /* MenuViewController.swift in Sources */,
+				A138BCA924D3519D001FAAAD /* CompleteToDoViewController.swift in Sources */,
 				A127858A24D0CB4300FAFFAC /* HomeViewController.swift in Sources */,
 				A127858624D0CB4300FAFFAC /* AppDelegate.swift in Sources */,
 				A1DD1C7724D2161100FC5BFA /* DiaryViewController.swift in Sources */,
+				A138BCA324D344A0001FAAAD /* ToDoTableViewController.swift in Sources */,
 				A1DD1C7324D215A100FC5BFA /* InfoViewController.swift in Sources */,
-				A1DD1C7524D215DF00FC5BFA /* RemindViewController.swift in Sources */,
 				A127858824D0CB4300FAFFAC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
